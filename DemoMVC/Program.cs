@@ -7,7 +7,7 @@ namespace DemoMVC
     class EntryPoint
     {
         public static void Main(string[] args)
-        {
+        { 
             CreateHostBuilder(args).Build().Run();
         }
         private static IHostBuilder CreateHostBuilder(string[] args)

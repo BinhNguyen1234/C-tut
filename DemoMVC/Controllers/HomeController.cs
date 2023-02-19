@@ -14,6 +14,7 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
+        Console.WriteLine("Home");
     }
 
     public IActionResult Index()
@@ -24,7 +25,8 @@ public class HomeController : Controller
     {
         var context = HttpContext;
         Console.WriteLine(context.Request.QueryString);
-        return Json(new {
+        return Json(new
+        {
             test = id,
             draft = name
         });

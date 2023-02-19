@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -32,20 +33,16 @@ namespace DemoMVC
                     },
                     pattern: "/"
                 );
-                endpoint.MapControllerRoute("test",defaults : new {
-                    controller = "test",
-                    action = "TestApi"
-                },pattern : "/test"
-
-
-                );
-                endpoint.MapControllerRoute(name: "second",defaults: new
+                endpoint.MapControllerRoute("test", defaults: new
                 {
-                    controller = "Second",
+                    controller = "Demo",
                     action = "Render"
-                },
-                pattern: "/secondary"
+                }, pattern: "/demo"
+
+                
                 );
+                
+               
             });
 
 
@@ -58,7 +55,13 @@ namespace DemoMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-         
+            services.AddRazorPages();
+            services.Configure<RouteOptions>(option =>
+            {
+                option.LowercaseUrls = true;
+                option.AppendTrailingSlash = false;
+                option.LowercaseQueryStrings = true;
+            });
         }
         
 

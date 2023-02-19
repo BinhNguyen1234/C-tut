@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\Second\" />
+    <None Remove="Pages\" />
+    <None Remove="Pages\aboutme\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Second\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Pages\aboutme\" />
   </ItemGroup>
 </Project>
