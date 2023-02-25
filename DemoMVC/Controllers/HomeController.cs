@@ -4,17 +4,17 @@ using DemoMVC.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using System;
+using DemoMVC.CustomAttribute;
 
 namespace DemoMVC.Controllers;
-
+[Demo("this test")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
+    
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        Console.WriteLine("Home");
     }
 
     public IActionResult Index()

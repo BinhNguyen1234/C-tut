@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/apple/Documents/binh/DemoMVC/DemoMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/apple/Documents/binh/DemoMVC/DemoMVC/Pages/aboutme/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvYWJvdXRtZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/Documents/binh/DemoMVC/DemoMVC/Pages/aboutyou/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvYWJvdXR5b3UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/apple/Documents/binh/DemoMVC/DemoMVC/Views/Demo/TestRender.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtby9UZXN0UmVuZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

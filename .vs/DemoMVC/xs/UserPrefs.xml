@@ -1,32 +1,35 @@
 ﻿<Properties StartupConfiguration="{33AF68D1-688C-4C12-BF59-F9EFAA65CCA4}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/apple/Documents/binh/DemoMVC/DemoMVC/Startup.cs" relfile="DemoMVC/Startup.cs" line="58" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoMVC/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoMVC/Controllers/DemoController.cs">
     <Files>
-      <File FileName="DemoMVC/Program.cs" Line="11" Column="1" />
-      <File FileName="DemoMVC/Startup.cs" Line="58" Column="1" />
+      <File FileName="DemoMVC/Program.cs" />
+      <File FileName="DemoMVC/Startup.cs" Line="45" Column="42" />
       <File FileName="DemoMVC/Controllers/HomeController.cs" Line="11" Column="2" />
-      <File FileName="DemoMVC/Controllers/DemoController.cs" Line="23" Column="44" />
-      <File FileName="DemoMVC/Controllers/TestController.cs" Line="11" Column="45" />
-      <File FileName="DemoMVC/Views/Demo/Render.cshtml" Line="3" Column="3" />
-      <File FileName="DemoMVC/Views/Home/Index.cshtml" Line="5" Column="26" />
+      <File FileName="DemoMVC/Controllers/DemoController.cs" Line="18" Column="11" />
+      <File FileName="DemoMVC/Controllers/TestController.cs" />
+      <File FileName="DemoMVC/Views/Home/Index.cshtml" />
+      <File FileName="DemoMVC/Pages/aboutme/Index.cshtml" Line="9" Column="1" />
+      <File FileName="DemoMVC/Pages/aboutyou/Index.cshtml" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DemoMVC" expanded="True">
             <Node name="DemoMVC" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="DemoController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="aboutme" expanded="True" />
+                <Node name="aboutyou" expanded="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Demo" expanded="True" />
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
               </Node>
             </Node>
           </Node>

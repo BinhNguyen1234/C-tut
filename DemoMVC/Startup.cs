@@ -33,6 +33,7 @@ namespace DemoMVC
                     },
                     pattern: "/"
                 );
+
                 endpoint.MapControllerRoute("test", defaults: new
                 {
                     controller = "Demo",
@@ -41,6 +42,7 @@ namespace DemoMVC
 
                 
                 );
+                endpoint.MapRazorPages();
                 
                
             });
@@ -61,6 +63,7 @@ namespace DemoMVC
                 option.LowercaseUrls = true;
                 option.AppendTrailingSlash = false;
                 option.LowercaseQueryStrings = true;
+
             });
         }
         

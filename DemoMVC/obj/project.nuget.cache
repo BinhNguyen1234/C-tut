@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "CX1vE8n8/CTwAvT2XcskT2k1xzPHSBgZ96e4huN7L/krFl1OG7jeMqWKNhKdYQtvK8KjfjzNaAGv/+2g1TWvbA==",
+  "dgSpecHash": "oRUJ1SLRC0zSUke3CHgrzI2jZtKTnNDuJEYOxRgvbV4jDVNCbpUy+UIjucccXCnpSsXJhLdixZF+Aoh8SLj15w==",
   "success": true,
   "projectFilePath": "/Users/apple/Documents/binh/DemoMVC/DemoMVC/DemoMVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

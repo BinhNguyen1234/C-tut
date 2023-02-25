@@ -9,9 +9,16 @@
   <ItemGroup>
     <None Remove="Pages\" />
     <None Remove="Pages\aboutme\" />
+    <None Remove="Pages\aboutyou\" />
+    <None Remove="CustomAttribute\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
     <Folder Include="Pages\aboutme\" />
+    <Folder Include="Pages\aboutyou\" />
+    <Folder Include="CustomAttribute\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.Extensions" Version="4.3.0" />
   </ItemGroup>
 </Project>

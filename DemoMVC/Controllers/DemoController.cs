@@ -16,6 +16,7 @@ namespace DemoMVC.Controllers
         {
             "test1","test2","test3"
         };
+        [HttpPost]
         public ViewResult Render(int id, string name)
         {
             ViewBag.id = id;
